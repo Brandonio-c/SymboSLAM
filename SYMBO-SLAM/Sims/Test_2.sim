@@ -1,0 +1,98 @@
+#Environment
+world ./worlds/test_world_3.wld
+
+#set the trace on 
+settings VIS TRACE
+
+#objects
+object ./objects/ParkingSign/ParkingSign.esObj
+object ./objects/SpeedLimitSign/cancelspeedlimitsign.esObj
+object ./objects/SpeedLimitSign/speedlimitsign.esObj
+object ./objects/StopSign/stopsign.esObj
+object ./objects/Can/can.esObj
+object ./objects/Checkerboard/checkerboard.esObj
+object ./objects/ConeBlue/coneblue.esObj
+
+#crate- used to make sure depth is picked up on!
+# cans - for depth
+can 200 4000 180
+can 4800 4000 0
+can 200 1000 180
+can 4800 1000 0
+
+#stop signs at front
+can 1500 3000 90
+can 2000 3000 90
+can 2500 3000 90
+can 3000 3000 90
+can 3500 3000 90
+
+#further away
+can 750 4500 90
+can 1750 4500 90
+can 3250 4500 90
+can 4250 4500 90
+
+#stop signs at rear
+can 1500 1500 270
+can 2000 1500 270
+can 2500 1500 270
+can 3000 1500 270
+can 3500 1500 270
+
+#further away
+can 750 500 270
+can 1750 500 270
+can 3250 500 270
+can 4250 500 270
+
+
+# Objects
+ParkingSign 200 4000 180
+CancelSpeedLimitSign 4800 4000 0
+SpeedLimitSign 200 1000 180
+SpeedLimitSign 4800 1000 0
+
+#stop signs at front
+StopSign 1500 3000 90
+StopSign 2000 3000 90
+StopSign 2500 3000 90
+StopSign 3000 3000 90
+StopSign 3500 3000 90
+
+#further away
+StopSign 750 4500 90
+StopSign 1750 4500 90
+StopSign 3250 4500 90
+StopSign 4250 4500 90
+
+#stop signs at rear
+StopSign 1500 1500 270
+StopSign 2000 1500 270
+StopSign 2500 1500 270
+StopSign 3000 1500 270
+StopSign 3500 1500 270
+
+#further away
+StopSign 750 500 270
+StopSign 1750 500 270
+StopSign 3250 500 270
+StopSign 4250 500 270
+
+
+
+# Robot placement
+LabBot 2500 2300 90 ../Edge_Agent/Random_search/build/Random_search.x /Third_Party/darknet/cfg/coco.names /Third_Party/darknet/cfg/yolov4.cfg /Third_Party/darknet/weights/yolov4.weights 
+
+#LabBot 2800 2000 180 ../Edge_Agent/Random_search/build/Random_search.x /Third_Party/darknet/cfg/coco.names /Third_Party/darknet/cfg/yolov4.cfg /Third_Party/darknet/weights/yolov4.weights 
+
+#LabBot 2500 1700 270 ../Edge_Agent/Random_search/build/Random_search.x /Third_Party/darknet/cfg/coco.names /Third_Party/darknet/cfg/yolov4.cfg /Third_Party/darknet/weights/yolov4.weights 
+
+#LabBot 2200 2000 270 ../Edge_Agent/Random_search/build/Random_search.x /Third_Party/darknet/cfg/coco.names /Third_Party/darknet/cfg/yolov4.cfg /Third_Party/darknet/weights/yolov4.weights 
+
+#LabBot 6000 5000 270 ./main.x
+#LabBot 5500 4500 225 ./main.x
+#LabBot 5000 4000 180 ./main.x
+#LabBot 4500 4500 135 ./main.x
+#LabBot 4000 5000 90 ./main.x
+#LabBot 4500 5500 45 ./main.x

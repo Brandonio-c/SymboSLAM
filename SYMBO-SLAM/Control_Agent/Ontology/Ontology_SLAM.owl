@@ -1,0 +1,60 @@
+Prefix(:=<http://www.semanticweb.org/brandonio/ontologies/2022/3/Ontological_Slam#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/brandonio/ontologies/2022/3/Ontological_Slam>
+
+Declaration(Class(:Chair))
+Declaration(Class(:Cone))
+Declaration(Class(:Crate))
+Declaration(Class(:Door))
+Declaration(Class(:EyeBot))
+Declaration(Class(:Floor))
+Declaration(Class(:Person))
+Declaration(Class(:Table))
+Declaration(Class(:Wall))
+Declaration(Class(:stop_sign))
+Declaration(ObjectProperty(:can_open))
+Declaration(ObjectProperty(:dynamic))
+Declaration(ObjectProperty(:is_movable))
+Declaration(ObjectProperty(:is_open))
+Declaration(ObjectProperty(:key_reference))
+Declaration(ObjectProperty(:static))
+############################
+#   Object Properties
+############################
+
+# Object Property: :can_open (:can_open)
+
+ObjectPropertyRange(:can_open :Door)
+
+# Object Property: :dynamic (:dynamic)
+
+ObjectPropertyRange(:dynamic :Chair)
+ObjectPropertyRange(:dynamic :Cone)
+ObjectPropertyRange(:dynamic :EyeBot)
+ObjectPropertyRange(:dynamic :Person)
+
+# Object Property: :key_reference (:key_reference)
+
+ObjectPropertyRange(:key_reference :Door)
+ObjectPropertyRange(:key_reference :Floor)
+ObjectPropertyRange(:key_reference :Wall)
+ObjectPropertyRange(:key_reference :stop_sign)
+
+# Object Property: :static (:static)
+
+ObjectPropertyRange(:static :Crate)
+ObjectPropertyRange(:static :Door)
+ObjectPropertyRange(:static :Floor)
+ObjectPropertyRange(:static :Table)
+ObjectPropertyRange(:static :Wall)
+ObjectPropertyRange(:static :stop_sign)
+
+
+
+)

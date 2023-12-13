@@ -1,0 +1,373 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/brandonio/ontologies/2022/1/SymboSLAM"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/brandonio/ontologies/2022/1/SymboSLAM">
+    <Prefix name="" IRI="http://www.semanticweb.org/brandonio/ontologies/2022/5/untitled-ontology-10#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#animal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#beach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bench"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bird"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#building"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bushland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#city"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#desert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dog"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dynamic_objects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#environments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fire_hydrant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#forest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#freshwater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#helicopter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#horse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#house"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#industrial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#man_made"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#marine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#military"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mixed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#natural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#park"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#static_objects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stop_sign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#suburban"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#table"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#town"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vehicle"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#animal"/>
+        <Class IRI="#dynamic_objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#beach"/>
+        <Class IRI="#natural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bench"/>
+        <Class IRI="#city"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bench"/>
+        <Class IRI="#park"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bench"/>
+        <Class IRI="#static_objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bench"/>
+        <Class IRI="#suburban"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bench"/>
+        <Class IRI="#town"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bird"/>
+        <Class IRI="#animal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#building"/>
+        <Class IRI="#city"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#building"/>
+        <Class IRI="#industrial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#building"/>
+        <Class IRI="#static_objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#building"/>
+        <Class IRI="#town"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bushland"/>
+        <Class IRI="#natural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cat"/>
+        <Class IRI="#animal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#city"/>
+        <Class IRI="#man_made"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#desert"/>
+        <Class IRI="#natural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dog"/>
+        <Class IRI="#animal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fire_hydrant"/>
+        <Class IRI="#city"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fire_hydrant"/>
+        <Class IRI="#industrial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fire_hydrant"/>
+        <Class IRI="#static_objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fire_hydrant"/>
+        <Class IRI="#suburban"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fire_hydrant"/>
+        <Class IRI="#town"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#forest"/>
+        <Class IRI="#natural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#freshwater"/>
+        <Class IRI="#natural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#helicopter"/>
+        <Class IRI="#military"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#helicopter"/>
+        <Class IRI="#static_objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#horse"/>
+        <Class IRI="#animal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#house"/>
+        <Class IRI="#static_objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#house"/>
+        <Class IRI="#suburban"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#house"/>
+        <Class IRI="#town"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#industrial"/>
+        <Class IRI="#man_made"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#man_made"/>
+        <Class IRI="#environments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#marine"/>
+        <Class IRI="#natural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#military"/>
+        <Class IRI="#man_made"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mixed"/>
+        <Class IRI="#environments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#natural"/>
+        <Class IRI="#environments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#park"/>
+        <Class IRI="#mixed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#person"/>
+        <Class IRI="#dynamic_objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plant"/>
+        <Class IRI="#bushland"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plant"/>
+        <Class IRI="#forest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plant"/>
+        <Class IRI="#freshwater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plant"/>
+        <Class IRI="#marine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plant"/>
+        <Class IRI="#static_objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stop_sign"/>
+        <Class IRI="#city"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stop_sign"/>
+        <Class IRI="#industrial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stop_sign"/>
+        <Class IRI="#static_objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stop_sign"/>
+        <Class IRI="#suburban"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stop_sign"/>
+        <Class IRI="#town"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#suburban"/>
+        <Class IRI="#man_made"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#table"/>
+        <Class IRI="#static_objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tank"/>
+        <Class IRI="#dynamic_objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tank"/>
+        <Class IRI="#military"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#town"/>
+        <Class IRI="#man_made"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tree"/>
+        <Class IRI="#bushland"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tree"/>
+        <Class IRI="#forest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tree"/>
+        <Class IRI="#static_objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vehicle"/>
+        <Class IRI="#city"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vehicle"/>
+        <Class IRI="#dynamic_objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vehicle"/>
+        <Class IRI="#industrial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vehicle"/>
+        <Class IRI="#military"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vehicle"/>
+        <Class IRI="#suburban"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vehicle"/>
+        <Class IRI="#town"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,30 @@
+# Sim file created 05/09/2022 1:08 PM
+
+# World File 
+world "/home/brandonio/Documents/Thesis_project_2022/EyeSim_simulation_software/EyeSim/myscripts/Project_scripts/Ontological_Slam/Sims/./worlds/test_world_2.wld"
+
+
+# Robots
+
+# Objects
+Cone-O 1950 4500 90
+Cone-Y 3849 4500 90
+Cone-B 125 5615 90
+Cone-O 5630 5587 90
+Cone-Y 5629 132 90
+Cone-O 136 132 90
+Crate 1596 2658 90
+StopSign 2371 3855 90
+StopSign 2462 2084 90
+StopSign 4869 2794 90
+StopSign 3030 1747 90
+StopSign 454 2864 90
+StopSign 4138 3586 90
+Cone-B 1398 919 90
+Cone-O 2673 2984 90
+Crate 2896 2894 90
+Crate 4279 5239 90
+Cone-Y 4165 1482 90
+Crate 2548 1058 90
+Cone-B 533 3520 90
+# Markers

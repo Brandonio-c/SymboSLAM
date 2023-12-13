@@ -1,0 +1,9 @@
+/snap/clion/189/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/189/bin/ninja/linux/ninja -DCMAKE_C_COMPILER=/usr/local/bin/gccsim -DCMAKE_CXX_COMPILER=/usr/local/bin/g++sim -G Ninja -S /home/brandonio/Documents/Thesis_project_2022/EyeSim_simulation_software/EyeSim/myscripts/Project_scripts/Ontological_Slam/Control_Agent -B /home/brandonio/Documents/Thesis_project_2022/EyeSim_simulation_software/EyeSim/myscripts/Project_scripts/Ontological_Slam/Control_Agent/cmake-build-debug
+Build type: Debug
+-- Python Found: /usr/bin/python3.10
+-- Python Found: /usr/include/python3.10
+-- Python Found: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Python Found: /usr/lib/x86_64-linux-gnu
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/brandonio/Documents/Thesis_project_2022/EyeSim_simulation_software/EyeSim/myscripts/Project_scripts/Ontological_Slam/Control_Agent/cmake-build-debug
